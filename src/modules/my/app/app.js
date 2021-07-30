@@ -1,10 +1,11 @@
 import { LightningElement } from 'lwc';
-//import  mapboxgl from 'mapbox-gl';
+import  mapboxgl from 'mapbox-gl';
 import  MapboxDirections from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions';
 import '@mapbox/mapbox-gl.css'; 
-import mapboxgl from 'mapbox-gl/dist/mapbox-gl-csp';
+//import mapboxgl from 'mapbox-gl/dist/mapbox-gl-csp';
 //import MapboxWorker from 'mapbox-gl/dist/mapbox-gl-csp-worker'; 
 export default class App extends LightningElement {
+    
     renderedCallback(){
         var map;
         //mapboxgl.workerClass = MapboxWorker;
