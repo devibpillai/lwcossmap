@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" content-security-policy:
-        frame-ancestors 'self'
-        https://api.mapbox.com
-        https://mapbox.com
-        https://*.force.com;;
-      frame-src:
-        https://*.heroku.com
-        https://*.mapbox.com;; />
-        
+        <meta charset="utf-8" http-equiv="Content-Security-Policy" content="default-src 'self' https://* blob: data:; script-src https://* 'sha256-NwPGqa9Mxa7ZIeBSPi4K97Vtt3uBWjwtJsUlZfeqG5E' 'unsafe-eval'; style-src 'unsafe-inline' https://*; child-src blob: ; connect-src https://*;"/>
+       
+
         <title>My LWC App</title>
         <style>
             body {
